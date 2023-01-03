@@ -10,19 +10,28 @@
 <body>
     <div class="gridBox">
         <div class="topbar">
-            <h3>Dashboard</h3>
-            <p>Home</p>
-            <p>Profile</p>
-            <p>Messages</p>
-            <p>History</p>
-            <p>Tasks</p>
-            <p>Communities</p>
+            <h3 class="dash">Dashboard</h3>
+            <div class="dashcontent">
+                <p>Home</p>
+                <p>Profile</p>
+                <p>Messages</p>
+                <p>History</p>
+                <p>Tasks</p>
+                <p>Communities</p>
+            </div>
         </div>
         <div class="sidebar">
-            <button>Go</button>
-            <form>
-                <input type="text" name="search" id="search">
-            </form>
+            <div class="search">
+                <button class="go">Go</button>
+                <form class="searchBar">
+                    <input type="text" name="search" id="search">
+                </form>
+            </div>
+            <div class="profBar">
+                <img src="/photos/profile-icon-9.png" class="prof">
+                <img src="/photos/notification-bell.png" alt="" class="prof">
+                <a id="username">Drew Herald</a>
+            </div>
         </div>
         <div class="content">
     
